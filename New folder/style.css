@@ -1,0 +1,156 @@
+/* General Styles */
+#body {
+    font-family: Arial, sans-serif;
+    font-size:20px; ;
+    margin: 0;
+    padding: 0;
+    background-color: #f4dcb3;
+    color: #333;
+    min-height:80vh;
+}
+
+/* Header */
+#header {
+    background-color:#007aff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+/* used h1 with anchor */
+.h1 a {                                                 
+    text-decoration: none;
+    color:   white;;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.nav ul li a:hover{
+     color: #be571b;
+    width: 1dvh;
+}
+
+    
+
+/* Main Content */
+#main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 120vw;
+    margin: auto;
+    font-family:mostra nuova, sans-serif;
+   
+
+}
+
+.article {
+    width: 65%;
+   
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.article img {
+    width: 65%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Sidebar */
+ #aside {
+
+    width: 30%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+ #aside ul {
+
+    list-style: none;
+    padding: 0;
+    font-family:mostra nuova, sans-serif ;
+}
+
+ #aside ul li {
+
+    margin-bottom: 10px;
+}
+
+#aside form input, aside form button {
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+}
+#aside ul li a:hover {
+    color: #be571b;
+    width: 1dvh;
+}
+
+
+/* Comments Section */
+.comments {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.form{
+    display:flex;
+    flex-direction: column
+
+}
+ .input{
+    padding: 10px;
+    margin: 9px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+ 
+    
+}
+  .textarea{
+    padding: 10px;
+    margin: 9px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size:1em;
+    
+    
+    
+}
+ .submit{
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
